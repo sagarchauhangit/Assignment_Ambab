@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46387" started-at="2020-08-11T19:17:01Z" finished-at="2020-08-11T19:17:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46387" started-at="2020-08-11T19:17:01Z" finished-at="2020-08-11T19:17:48Z">
+      <class name="com.ambab.testcases.TC_WomenScreenPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.ambab.testcases.TC_WomenScreenPageTest@239963d8]" name="setup" is-config="true" duration-ms="20168" started-at="2020-08-11T19:17:01Z" finished-at="2020-08-11T19:17:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyWomenPage()[pri:1, instance:com.ambab.testcases.TC_WomenScreenPageTest@239963d8]" name="verifyWomenPage" duration-ms="12814" started-at="2020-08-11T19:17:22Z" finished-at="2020-08-11T19:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWomenPage -->
+        <test-method status="PASS" signature="verifyProductCount()[pri:2, instance:com.ambab.testcases.TC_WomenScreenPageTest@239963d8]" name="verifyProductCount" duration-ms="11108" started-at="2020-08-11T19:17:35Z" depends-on-methods="com.ambab.testcases.TC_WomenScreenPageTest.verifyWomenPage" finished-at="2020-08-11T19:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ambab.testcases.TC_WomenScreenPageTest@239963d8]" name="tearDown" is-config="true" duration-ms="1795" started-at="2020-08-11T19:17:46Z" finished-at="2020-08-11T19:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ambab.testcases.TC_WomenScreenPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

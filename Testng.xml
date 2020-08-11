@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Ambab Assignment Automation">
+	<listeners>
+		<listener class-name="com.ambab.utilities.Reporting" />
+	</listeners>
+
+	<test name="Ambab Assignment Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.ambab.testcases.TC_HomeScreenTest" />
+			<class name="com.ambab.testcases.TC_WomenScreenPageTest" />
+
+		</classes>
+
+	</test>
+
+</suite>
